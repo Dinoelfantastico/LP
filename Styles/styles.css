@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
 }
 
@@ -29,8 +29,8 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 50px;
+    font-weight: 1000;
 }
 
 ul {
