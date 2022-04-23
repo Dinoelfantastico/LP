@@ -14,14 +14,13 @@ h1 {
     font-size: 50px;
     line-height: 1.5;
     color: white;
-    text-align: -moz-center;
     margin: 0;
     font-weight: 900;
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -45,7 +44,7 @@ figure {
 }
 .container {
     max-width: 1000px;
-    flex: 1; 
+    flex: 1;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -69,18 +68,18 @@ figure {
 
 .logo {
     width: 50%;
-    
+
 }
 
 #menu {
     display: flex;
     justify-content: space-around;
     width: 50%;
-    
+
     /*min-width: 30%;*/
 }
 #menu li{
-    
+
     list-style: none;
     margin: 0;
     /*width: 50%;*/
@@ -89,12 +88,12 @@ figure {
     text-decoration: none;
     color:white;
     font-size: 15px;
-   
+
 }
 
 #menu li a:hover{
     text-decoration: underline;
-    
+
 }
 
 .hero {
@@ -112,7 +111,7 @@ figure {
     font-size: 250px;
     z-index: -1;
     margin: -70px;
-    
+
 }
 
 
@@ -122,7 +121,7 @@ figure {
 
 .hero-image {
     width: 50%;
-    
+
 }
 
 
@@ -153,9 +152,9 @@ figure {
 
 .paragraph {
     margin-left: 10%;
-   padding: 30px 0;
-   width: 80%;
-   
+    padding: 30px 0;
+    width: 80%;
+
 }
 
 #About-us .butom {
@@ -203,7 +202,7 @@ figure {
 }
 
 #About-service h2 {
-   padding-top: 50px;
+    padding-top: 50px;
 }
 
 #About-service h3 {
@@ -219,7 +218,7 @@ figure {
 }
 
 .step {
-    
+
     height: 170px;
     width: 250px;
     border-radius: 2px 2px 50px 2px;
@@ -250,7 +249,7 @@ figure {
     position: absolute;
     margin-left: -10px;
     margin-top: -10px;
-    
+
 }
 
 .circle h5 {
@@ -296,7 +295,7 @@ figure {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-   
+
 }
 
 .card-plans {
@@ -326,7 +325,7 @@ figure {
 }
 
 .card-plans .butom {
-   margin-top: 5px;
+    margin-top: 5px;
 }
 
 .butom:hover {
@@ -343,7 +342,7 @@ figure {
 }
 
 .cards-team {
-    
+
     width: 70%;
     margin-left: 15%;
     display: flex;
@@ -357,7 +356,7 @@ figure {
 }
 
 .container-img-team {
-    
+
     border: solid #DFF9D9;
     width: 150px;
     height: 150px;
@@ -423,25 +422,25 @@ footer{
 
 
 
- #services {
+#services {
     text-align: center;
     transform: translatez(0);
-  }
-  #services h2 {
+}
+#services h2 {
     margin: 80px 0px 40px;
     color: #fff;
     font-size: 2.4em;
     text-transform: uppercase;
     text-align: center;
-  }
-  #services li {
+}
+#services li {
     width: 60px;
     height: 70px;
     display: inline-block;
     margin: 20px;
     list-style: none;
-  }
-  #services li div {
+}
+#services li div {
     width: 60px;
     height: 60px;
     color: #74d4b3;
@@ -450,38 +449,38 @@ footer{
     line-height: 60px;
     background-color: #fff;
     transition: all 0.5s ease;
-  }
-  #services li a {
+}
+#services li a {
     color: #77cc6d;
-  }
-  
-  #services i {
-      height: auto;
-  }
+}
 
-  #services li div:hover {
+#services i {
+    height: auto;
+}
+
+#services li div:hover {
     transform: rotate(360deg);
     border-radius: 100px;
-  }
+}
 
 
 
-  /* ScrollBar*/
-  ::-webkit-scrollbar-track
+/* ScrollBar*/
+::-webkit-scrollbar-track
 {
-	border: 5px solid white;
-	background-color: #b2bec3;
+    border: 5px solid white;
+    background-color: #b2bec3;
 }
 
 ::-webkit-scrollbar
 {
-	width: 15px;
-	background-color: #dfe6e9;
+    width: 15px;
+    background-color: #dfe6e9;
 }
 
 ::-webkit-scrollbar-thumb
 {
-	background-color: #71B85F;
+    background-color: #71B85F;
 }
 
 
@@ -521,7 +520,7 @@ footer{
         height: auto;
         padding-bottom: 50px;
     }
-    .container-aboutService 
+    .container-aboutService
     {
         display: block;
     }
@@ -560,10 +559,10 @@ footer{
     }
     .step {
         margin-left: 15%;
-        
+
     }
     .card-plans {
-        
+
         margin-left: 15%;
     }
     .hero-image {
@@ -585,13 +584,13 @@ footer{
     }
     .step {
         margin-left: 5%;
-        
+
     }
     .card-plans {
-        
+
         margin-left: 5%;
     }
-    
+
 }
 
 @media screen and (max-width: 320px) {
@@ -600,10 +599,10 @@ footer{
     }
     .step {
         margin-left: 2%;
-        
+
     }
     .card-plans {
-        
+
         margin-left: 2%;
     }
     .hero-image {
